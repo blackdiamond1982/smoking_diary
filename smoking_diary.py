@@ -91,9 +91,9 @@ def main():
         print("\nEntrata aggiunta con successo!")
     elif choice == '2':
         total_days, total_cigarettes, average_per_day = calculate_statistics(data)
-        print(f"\nTotale giorni registrati: {total_days}")
+        print(f"\nTotale dei giorni registrati: {total_days}")
         print(f"\nTotale sigarette fumate: {total_cigarettes}")
-        print(f"\nMedia sigarette al giorno: {average_per_day:.2f}")
+        print(f"\nMedia delle sigarette giornaliere: {average_per_day:.2f}")
         
         # Calcola giorni consecutivi senza fumare
         last_date = None
